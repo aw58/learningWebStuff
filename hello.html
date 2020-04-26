@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> My first webpage</title>
+		<title style> My first webpage</title>
+		<style>
+			p{
+				color:red;
+				text-align: center;
+			}
+
+			div{
+				background-color: turquoise;
+				font-family: Arial, sans-serif;
+				font-size: 28px;
+				font-weight: bold;
+				margin: 30px;
+				padding: 30px;
+			}
+
+			th{
+				border: 3px dotted red;
+				border-collapse:collapse;
+			}
+
+			#first{
+				background-color: green;
+				font-size: 10px;
+			}
+
+			.name{
+				font-weight: lighter;
+			}
+			</style>
 	</head>
 	<body>
-		Hello world! Hello again.
+			<h1>Hello world! Hello again.</h1>
+			<img src = "https://d.newsweek.com/en/full/1561066/holstein-cows.jpg" width=50%>
+			<div>
+				<table style="border: 3px solid blue">
+					<tr>
+						<th>stuff</th>
+						<th> more stuff </th>
+					</tr>
+					<div id="first">
+						<tr>
+								<td> my things! </td>
+								<td> more things! </td>
+						<tr>
+					</div>
+				</table>
+			</div>
+
+			<h3 style="color:pink; text-align:center;">Welcome to my kingdom...!</h3>
+			<form>
+				<input type="text" placeholder="full name" name="name">
+				<button>submit!</button>
+			</form>
+
+			<div>This is the <span class="name">last</span> thing on my webpage</div>
+
+			<p> this is me practicing my stuf </p>
+			<p> see the lovli lakes </p>
 	</body>
 </html>
